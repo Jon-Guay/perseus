@@ -10,6 +10,13 @@ import * as jestDomMatchers from "@testing-library/jest-dom/matchers";
 // @ts-expect-error - TS2305 - Module '"aphrodite"' has no exported member 'StyleSheetTestUtils'.
 import {StyleSheetTestUtils} from "aphrodite";
 
+import type {TestingLibraryMatchers} from "@testing-library/jest-dom/matchers";
+
+declare module "@rstest/core" {
+    // eslint-disable-next-line @typescript-eslint/no-empty-object-type -- adds the jest-dom matchers to Rstest's types
+    interface Assertion<T = any> extends TestingLibraryMatchers<any, T> {}
+}
+
 // Tests call Jest's API on a `jest` global, and `rs` has the parts they use.
 // Testing Library also checks for a `jest` global to decide whether to
 // advance fake timers while it waits.
