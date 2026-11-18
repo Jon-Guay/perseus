@@ -1,5 +1,37 @@
 # @khanacademy/perseus
 
+## 95.0.0
+
+### Major Changes
+
+-   [#4558](https://github.com/Khan/perseus/pull/4558) [`87cb448`](https://github.com/Khan/perseus/commit/87cb448874ee0edb7fe4e062a99e3343e4a2290c) Thanks [@benchristel](https://github.com/benchristel)! - Renamed `scorePerseusItem` to `scoreQuestion`; the old name is kept as a deprecated alias. Also removed the deprecated `score` method of `Renderer` and the export of `scoreWidgetsFunctional` from `perseus-score`.
+
+### Minor Changes
+
+-   [#4550](https://github.com/Khan/perseus/pull/4550) [`a0b8db9`](https://github.com/Khan/perseus/commit/a0b8db913a3497f8344610791635a4489ed68800) Thanks [@nishasy](https://github.com/nishasy)! - [FITB] Update schema to handle max uses per tile (no existing content yet)
+
+### Patch Changes
+
+-   [#4541](https://github.com/Khan/perseus/pull/4541) [`18aabdc`](https://github.com/Khan/perseus/commit/18aabdcfcbe7a753263514143c1af7711de1f474) Thanks [@benchristel](https://github.com/benchristel)! - Export `isCorrect` from `@khanacademy/perseus-core`
+
+-   [#4563](https://github.com/Khan/perseus/pull/4563) [`23f1575`](https://github.com/Khan/perseus/commit/23f1575d5ff0fe467e22bc52a8d11d6cece2b7be) Thanks [@mark-fitzgerald](https://github.com/mark-fitzgerald)! - [Styles] Consolidate Graphie-specific styles
+
+-   [#4560](https://github.com/Khan/perseus/pull/4560) [`4228723`](https://github.com/Khan/perseus/commit/4228723cb405f8201c630519f1600a559a2b8750) Thanks [@benchristel](https://github.com/benchristel)! - Internal: Deleted references to the unused CSS class `perseus-rendered-radio`
+
+-   [#4561](https://github.com/Khan/perseus/pull/4561) [`284d4ea`](https://github.com/Khan/perseus/commit/284d4eac1d37241a6d3c20a612fe76566df228a6) Thanks [@benchristel](https://github.com/benchristel)! - Removed unused CSS rules from the Interactive Graph widget stylesheet
+
+-   [#4568](https://github.com/Khan/perseus/pull/4568) [`a335819`](https://github.com/Khan/perseus/commit/a3358196dd1a7649bac3b214868dde032b740c63) Thanks [@mark-fitzgerald](https://github.com/mark-fitzgerald)! - [Styles] Remove unused .perseus-formats-tooltip styling
+
+-   [#4569](https://github.com/Khan/perseus/pull/4569) [`18e060d`](https://github.com/Khan/perseus/commit/18e060d98eb1f9408338ff6f56c996d96795617d) Thanks [@nedredmond](https://github.com/nedredmond)! - Radio: clicking a choice's content now focuses its button, so keyboard navigation continues from that choice instead of jumping to the first focusable parent
+
+-   Updated dependencies [[`87cb448`](https://github.com/Khan/perseus/commit/87cb448874ee0edb7fe4e062a99e3343e4a2290c), [`d1b2485`](https://github.com/Khan/perseus/commit/d1b2485eeec77256d0f1219f49aba3cf6fa4d27c), [`18aabdc`](https://github.com/Khan/perseus/commit/18aabdcfcbe7a753263514143c1af7711de1f474), [`a0b8db9`](https://github.com/Khan/perseus/commit/a0b8db913a3497f8344610791635a4489ed68800), [`894ed72`](https://github.com/Khan/perseus/commit/894ed729bff8e27ea338eca3a11dca91c213a82a)]:
+    -   @khanacademy/perseus-score@10.0.0
+    -   @khanacademy/perseus-core@42.5.0
+    -   @khanacademy/keypad-context@6.0.15
+    -   @khanacademy/kmath@3.1.8
+    -   @khanacademy/math-input@30.2.5
+    -   @khanacademy/perseus-linter@8.1.1
+
 ## 94.0.0
 
 ### Major Changes

@@ -1,5 +1,17 @@
 # @khanacademy/perseus-editor
 
+## 46.0.1
+
+### Patch Changes
+
+-   Updated dependencies [[`87cb448`](https://github.com/Khan/perseus/commit/87cb448874ee0edb7fe4e062a99e3343e4a2290c), [`18aabdc`](https://github.com/Khan/perseus/commit/18aabdcfcbe7a753263514143c1af7711de1f474), [`a0b8db9`](https://github.com/Khan/perseus/commit/a0b8db913a3497f8344610791635a4489ed68800), [`23f1575`](https://github.com/Khan/perseus/commit/23f1575d5ff0fe467e22bc52a8d11d6cece2b7be), [`894ed72`](https://github.com/Khan/perseus/commit/894ed729bff8e27ea338eca3a11dca91c213a82a), [`4228723`](https://github.com/Khan/perseus/commit/4228723cb405f8201c630519f1600a559a2b8750), [`284d4ea`](https://github.com/Khan/perseus/commit/284d4eac1d37241a6d3c20a612fe76566df228a6), [`a335819`](https://github.com/Khan/perseus/commit/a3358196dd1a7649bac3b214868dde032b740c63), [`18e060d`](https://github.com/Khan/perseus/commit/18e060d98eb1f9408338ff6f56c996d96795617d)]:
+    -   @khanacademy/perseus@95.0.0
+    -   @khanacademy/perseus-core@42.5.0
+    -   @khanacademy/keypad-context@6.0.15
+    -   @khanacademy/kmath@3.1.8
+    -   @khanacademy/math-input@30.2.5
+    -   @khanacademy/perseus-linter@8.1.1
+
 ## 46.0.0
 
 ### Major Changes
